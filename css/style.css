@@ -32,6 +32,7 @@ img {
   --active-blue: #188ce8;
   --dark-bg: #2f303a;
   --light-bg: #f5f4fa;
+  --white-shade: rgba(255, 255, 255, 0.1);
 }
 
 .container {
@@ -47,7 +48,7 @@ img {
 /* Nav & Header */
 
 header {
-  padding: 26px 0;
+  /* padding: 26px 0; */
   border-bottom: 1px solid var(--light-gray1);
 }
 
@@ -58,6 +59,7 @@ header {
 
 .navbar {
   display: flex;
+  padding: 26px 0;
   /* justify-content: space-between;
     align-items: center; */
   /* width: 500px; */
@@ -88,6 +90,7 @@ header {
 .nav-items li a {
   font-size: 14px;
   font-weight: 500;
+  padding: 26px 0;
 }
 
 .nav-items li a:hover {
@@ -114,6 +117,7 @@ header {
   font-weight: 500;
   color: var(--gray);
   fill: var(--gray);
+  padding: 26px 0;
 }
 
 .contact-info li a svg {
@@ -286,6 +290,7 @@ header {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: var(--white-shade);
   fill: var(--light-gray3);
   cursor: pointer;
 }
@@ -399,7 +404,7 @@ header {
   align-items: center;
   cursor: pointer;
 }
- 
+
 .customer:not(:last-child) {
   margin-right: 30px;
 }
